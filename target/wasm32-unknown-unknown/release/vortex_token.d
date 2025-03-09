@@ -1,0 +1,1 @@
+/home/matin/Vortex/target/wasm32-unknown-unknown/release/vortex_token.wasm: /home/matin/Vortex/src/contract.rs /home/matin/Vortex/src/error.rs /home/matin/Vortex/src/lib.rs /home/matin/Vortex/src/msg.rs /home/matin/Vortex/src/state.rs

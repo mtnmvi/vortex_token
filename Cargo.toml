@@ -1,0 +1,21 @@
+[package]
+name = "vortex_token"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cosmwasm-std = "1.0.1"  # فقط از نسخه 1.0 استفاده کنید
+cosmwasm-crypto = "1.0"
+cw-storage-plus = "0.14"
+cw20 = "0.14"
+schemars = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+getrandom = { version = "0.2", features = ["js"] }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+panic = "abort"
+
